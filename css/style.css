@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(27, 30, 33);
+}
+
+.header-path{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
+}
+.path svg{
+    width: 130px;
+}
+.path span p {
+    padding: 18px;
+    color: white;
+    /* font-family: 'Courier New', Courier, monospace; */
+    
+}
+.path-card{
+    background-color: rgb(60, 60, 60);
+    
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.path-card h2{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.path-card p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.path-card .btn-container{
+    text-align: center;
+}
+.path-card .btn-container > button{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.path-card .card-value{
+    font-size: 80px;
+    position: absolute;
+    transform: translate(90%,80%);
+    color: white;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.path-card .card-icon{
+    margin-left: 30%;
+    margin-left: 25px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 350px ;
+    overflow:visible;
+    border: 25px solid rgb(113, 110, 110);
+    width: 140px;
+    height: 140px; 
+    opacity: 0.3;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    grid-row-gap: 30px;
+    width: 950px;
+    border-top: solid 2px grey;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.for-flex{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.path h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-style: bold;
+}
+/* topics */
+.topics{
+    margin-bottom: 130px;
+}
+.header-topic{
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.topic-svg{
+    width: 130px;
+    height: 130px;
+}
+
+.header-topic h1 {
+    font-size: 36px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-topic p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* do changes from here */
+.language-card{
+    background-color: rgb(60, 60, 60);
+    /* width: 200px; */
+    height: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.language-card h2{
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.language-card p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+   
+}
+.language-card .btn-container{
+    text-align: center;
+}
+.language-card .btn-container > button{
+    color: white;
+    padding: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.language-card .value-icon >.card-value{
+    font-size: 100px;
+    position: absolute;
+    transform: translate(65%,45%);
+    color: white;
+    opacity: 1;
+}
+
+.language-card .value-icon >.card-icon{
+    padding: 30px;
+    border-radius: 350px ;
+    overflow:visible;
+    border: 25px solid rgb(113, 110, 110);
+    width: 140px;
+    height: 140px; 
+    opacity:0.3; 
+    
+}
+.language-card .js-btn{
+    background-color: #B3911c;
+}
+.language-card .css-btn{
+    background-color: #278CC7;
+}
+.language-card .node-btn{
+    background-color: #00873A;
+}
+.language-card .react-btn{
+    background-color: #008697;
+}
+.language-card .vue-btn{
+    background-color: #00bb83;
+}
+.language-card .angular-btn{
+    background-color: #ff002f;
+}
+.language-card .type-btn{
+    background-color: #4476c0;
+}
+.language-card .function-btn{
+    background-color: #5eb254;
+}
+.language-card .python-btn{
+    background-color: #4772a3;
+}
+.language-card .build-btn{
+    background-color: #174a80;
+}
+.language-card .api-btn{
+    background-color: #d2188e;
+}
+.language-card .d3-btn{
+    background-color: #aa3f3f;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    
+}
+
+footer .upper{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+footer .upper .ways img{
+    width: 300px;
+    margin-top: 50px;
+}
+footer .upper .ways ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 8px;
+    
+}
+footer .upper .ways ul li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+}
+
+footer .upper .platforms{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+footer .upper .platforms .icon{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+footer .upper .platforms .icon i{
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+footer .upper .platforms .store a{
+    text-decoration: none;
+    
+}
+footer .upper .platforms .store a img{
+    width: 90px;
+}
+footer .upper .platforms .contact {
+   margin-top: 30px;
+    
+}
+
+footer .upper .platforms .contact a{
+    color: tomato;
+    text-decoration: none;
+    font-style: bold;
+    letter-spacing: 2px;
+    
+}
+
+
+footer .footer-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: solid 1px gray;
+}
+
+
+@media(max-width:995px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+        width: 750px;
+    }
+    .footer-text {
+        padding-left: 50px;
+    }
+    footer .upper{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    footer .upper .ways ul{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    }
+    footer .upper .platforms{
+        
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+    footer .upper .platforms .icon i{
+        margin-right: 40px;
+        margin-left: 0;
+    }
+    footer .footer-text{
+        flex-direction: column;
+    }
+
+    footer .footer-text{
+        flex-direction: column;
+    }
+}
+
+ @media(max-width:800px){
+    .cards{
+        width: 650px;
+    }
+ }
+ @media(max-width:650px){
+    .cards{
+        grid-template-columns: 1fr;
+        width: 550px;
+    }
+    .path-card,
+    .language-card{
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+ }
